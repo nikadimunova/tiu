@@ -1,0 +1,221 @@
+/*hlavicka pozadie*/
+#hlava{
+	background: url(https://followthecolours.com.br/wp-content/uploads/2017/04/HEADERS_2017_prism-min.png) #f4f4f4 top center repeat-x !important;
+	
+	height: 150px;
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.hlava-text
+{
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.hlava-text>span{  /*pismo v hlavicke*/
+	color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 0px 0px 20px black;
+}
+
+/*#F7D2BE
+F7DAD5
+background: rgba(250,200,250,0.1);
+*/
+body{
+
+	background: white;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Open Sans',Verdana;
+}
+
+ul{
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+nav{
+	display: table;
+	margin: 0;
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+}
+
+nav>ul>li{
+	display: inline;
+	padding: 0 5px 0 5px;
+
+}
+
+nav>ul>li>a{
+	color: #fff;
+	text-shadow: 0px 0px 20px black;
+}
+
+nav>ul>li>a:visited{
+	color: #fff;
+	text-shadow: 0px 0px 20px black;	
+}
+
+nav>ul>li>a:hover {
+	border-bottom: solid;
+	color: #494eff;
+}
+
+article{
+ 	text-align: justify;
+ 	margin: 0 25px 0 25px;
+ 	background:#F7DAEB ;
+ 	line-height: 25px;
+}
+
+a
+{
+ 	text-decoration:none;
+
+}
+
+.text-box{
+	padding: 0 5px 0 5px;
+}
+
+.obraz>img{
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+
+.obraz1{
+	margin-right: 40px;
+	width: 550px;
+
+}
+hr{
+	color: black;
+}
+
+#navrat{
+	text-decoration: none;
+ 	text-align: right;
+}
+
+h2{
+	color: #6629E8;
+
+}
+.prehlad{
+	background:#F7DAEB ;
+	text-align: center;
+	font-size: 15px;
+}
+
+/*.menu{
+	font-size: 10px;
+	padding: 0;
+	margin-left: 80px;
+	list-style-type: none;
+	
+}
+*/
+footer{
+	display: table;
+	margin: 0 auto;
+}
+
+footer>ul>li{
+	display: inline;
+	font-size: 15px;
+	padding: 0 1em 0 1em;
+}
+
+footer>ul>li>a:visited{
+	color:#6629E8;	
+}
+/*----------------------------------------------------------------stranka1--------------------------------------------------------*/
+
+#hlava1{
+	background: url(https://borgulova.webnode.sk/_files/200000003-4acf94cc20/galeria2_top.jpg) #f4f4f4 top center;
+	height: 180px;
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.text-box1{
+	text-align: justify;
+ 	line-height: 25px;
+ 	padding: 0 5px 0 5px;
+ 	background:#C9DBFF ;
+ }
+.index-text1{
+	background:#C9DBFF ;
+}
+
+.prehlad1{
+	background:#C9DBFF;
+	text-align: center;
+	font-size: 15px;
+}
+ 
+.vystavy{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 760px)
+{
+ 	#hlava{
+ 		height: 200px;
+ 	}
+
+ 	.hlava-text>span{  /*pismo v hlavicke*/
+    	font-size: 50px
+	}
+
+ 	.index-obrazok  /*obal obrazku*/
+ 	{	
+ 		display: block;
+ 		margin: 0 auto;
+ 		text-align: center;
+ 	}
+
+ 	.obraz>img{		/*obrazok*/
+		width: 50%;
+		height: auto;
+	}
+
+}
