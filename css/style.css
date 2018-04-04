@@ -23,7 +23,7 @@
 .hlava-text>span{  /*pismo v hlavicke*/
 	color: white;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
     text-shadow: 0px 0px 20px black;
 }
 
@@ -39,7 +39,7 @@ body{
 }
 
 ul{
-	font-size: 20px;
+	font-size: 14px;
 	padding: 0;
 	margin: 0;
 	list-style-type: none;
@@ -139,7 +139,7 @@ footer{
 
 footer>ul>li{
 	display: inline;
-	font-size: 15px;
+	font-size: 10px;
 	padding: 0 1em 0 1em;
 }
 
@@ -289,29 +289,19 @@ video{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (min-width: 760px)
 {
  	#hlava{
  		height: 200px;
  	}
 
- 	.hlava-text>span{  /*pismo v hlavicke*/
-    	font-size: 50px
+ 	.hlava-text>span{  /*nadpis v hlavicke*/
+    	font-size: 55px;
+	}
+
+	nav>ul
+	{
+		font-size: 20px;
 	}
 
  	.index-obrazok  /*obal obrazku*/
@@ -324,6 +314,10 @@ video{
  	.obraz>img{		/*obrazok*/
 		width: 50%;
 		height: auto;
+	}
+
+	footer>ul>li{
+		font-size: 15px;
 	}
 
 }
